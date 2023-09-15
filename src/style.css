@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Baskerville:wght@400;700&family=Recursive:wght@700&display=swap');
+
+.escondido {
+    display: none;
+}
+
+/*=========================STYLE PÁGINA DE INICIAL=====================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    background-color: #D92534;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+}
+
+.principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.principal>section {
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.principal>.area-cabeca {
+    border-radius: 3px 3px 0 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.topo-caixa {
+    border: 2px solid #000;
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    padding: 2px;
+    box-shadow: 8px 8px #000;
+    background-color: #038C3E;
+    gap: 8px;
+}
+
+.topo-caixa>img {
+    width: 18px;
+}
+
+.corpo-caixa {
+    font-weight: 900;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 8px 8px #000;
+    background-color: #038C3E;
+}
+
+.corpo-caixa>p {
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.area-navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 58px;
+}
+
+.navegacao>button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    height: 62px;
+    width: 62px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.navegacao>button::target-text{
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+  
+.navegacao>button:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    background-color: #038C3E;
+}
+
+.submit {
+    background-color: #038C3E;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    width: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 1px 1px #000;
+}
+
+.submit:hover {
+    transform: scale(1.2);
+    background-color: #027333;
+    cursor: pointer;
+}
+
+.rodape {
+    border-top: 1px solid #000;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+
+
+
+/*=========================STYLE PÁGINA DE SOBRE=====================*/
+
+#area-quem-somos>* {
+    padding: 10px;
+}
+
+.img-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    padding: 5px;
+}
+
+.titulo-quem-somos {
+    font-size: 40px;
+}
+
+.texto-quem-somos {
+    text-align: justify-all;
+    font-size: 20px;
+}
+
+
+
+
+/*=========================STYLE PÁGINA DE ERRO=====================*/
+
+
+/* #area-erro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+}
+
+.voltar {
+    box-shadow: 8px 5px #000;
+    background-color: #9775AA;
+    outline: 3px #000 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.voltar::target-text{
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+
+.voltar:hover {
+    background-color: transparent;
+}
+
+.voltar:hover {
+    color: #9775AA;
+}
+
+.voltar:hover {
+    cursor: pointer;
+}
+*/

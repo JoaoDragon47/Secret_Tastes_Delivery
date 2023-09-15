@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Tastes Delivery</title>
+    
+</head>
+<body>
+    <main class="principal" id="principal">
+        <section class="area-cabeca">
+            <div class="caixa">
+                <div class="topo-caixa">
+                    <img src="src/img/fechar.png" alt="Fechar">
+                    <img src="src/img/mais.png" alt="Mais">
+                    <img src="src/img/menos.png" alt="Menos">
+                </div>
+                <div class="corpo-caixa">
+                    <h1>Secret Tastes Delivery</h1>
+                    <p>Avalie a experiência do nosso produto</p>
+                </div>
+            </div>
+        </section>
+        <section class="area-navegacao">
+            <nav class="navegacao">
+                <button class="botao" onclick="selecionar(0)" id="0">🤮</button>
+                <button class="botao" onclick="selecionar(1)" id="1">😢</button>
+                <button class="botao" onclick="selecionar(2)" id="2">😕</button>
+                <button class="botao" onclick="selecionar(3)" id="3">😐</button>
+                <button class="botao" onclick="selecionar(4)" id="4">🤭</button>
+                <button class="botao" onclick="selecionar(5)" id="5">🤩</button>
+            </nav>
+            <button onclick="" class="submit"><p>ENVIAR</p></button>
+        </section>
+    </main>
+
+    <main class="escondido principal" id="area-quem-somos">
+        <img class="img-logo" src="src/img/logo.png" alt="Logo JIKS">
+        <h2 class="titulo-quem-somos">Quem somos?</h2>
+        <p class="texto-quem-somos">Somos um estúdio indie iniciando a vida e a carreira de desenvolvedor de jogos.  Apesar de sermos um estúdio indie, nossa equipe é altamente competente em suas funções. Pretendemos ganhar o mundo e demonstrar do que somos capazes mesmo em poucas pessoas, pôr todas nossas ideias em prática e entregar o nosso melhor em tudo que fizermos.</p>
+        <button onclick="abrirLink('sobre-nos')" class="voltar">Voltar</button>
+    </main>
+
+    <main class="escondido principal" id="area-erro">
+        <p class="texto-erro">Essa página ainda não existe, sinto muito 😕</p>
+        <button class="voltar" onclick="abrirLink()">Voltar</button>
+    </main>
+
+    <footer class="rodape">
+        <small>Todos os direitos reservados &#169 2023</small>
+    </footer>
+
+    <script type="text/javascript" src="src/script.js"></script>
+
+</body>
+</html>
